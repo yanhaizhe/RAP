@@ -24,13 +24,13 @@
         </RollingFile>
     </Appenders>
     <Loggers>
-        <Logger name="errorLogger" level="error">
+        <Logger name="errorLogger" level="debug">
             <AppenderRef ref="ErrorLog"/>
         </Logger>
-        <Logger name="detailLogger" level="warn">
+        <Logger name="detailLogger" level="debug">
             <AppenderRef ref="DetailLog"/>
         </Logger>
-        <Root level="info">
+        <Root level="debug">
             <AppenderRef ref="Console"/>
         </Root>
     </Loggers>
